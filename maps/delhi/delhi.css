@@ -1,5 +1,46 @@
-h3{
-    color: blueviolet;
-    text-decoration: underline;
-    
+.nav{
+  justify-content: center;
+  background-color:#FC8019 ;
+  padding: 10px;
+}
+#myInput{
+border:2px solid black;
+border-radius: 20px;
+}
+#btn{
+  border-radius: 3px;
+  background-color: white;
+  border-radius: 20px; 
+}
+.htext{
+  background-color: #FC8019;
+  margin: 0px;
+}
+input[type="search"] {
+  padding-left: 10px;
+}
+.nav1{
+  position: sticky;
+  top:0px;
+}
+body::-webkit-scrollbar{
+  scrollbar-width: none;
+}
+.table-dark{
+  position: sticky;
+  top:100px;
+}
+tr{
+  z-index: 10;
+}
+tr:nth-child(odd) {
+  background-color: #b3b3b3; 
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff; 
+}
+tr:hover{
+  background-color: #818181;
+  cursor: pointer;
 }
