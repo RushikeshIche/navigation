@@ -38,15 +38,15 @@ body::-webkit-scrollbar{
 tr{
   z-index: 10;
 }
-tr:nth-child(odd) {
+tr:nth-child(odd)>td {
   background-color: #b3b3b3; 
 }
 
 tr:nth-child(even) {
   background-color: #ffffff; 
 }
-tr:hover{
-  background-color: #818181;
+tr:hover>td{
+  background-color: #999999;
   cursor: pointer;
 }
 h1{
