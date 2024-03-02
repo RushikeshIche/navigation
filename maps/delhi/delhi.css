@@ -8,9 +8,14 @@ border:2px solid black;
 border-radius: 20px;
 }
 #btn{
-  border-radius: 3px;
-  background-color: white;
-  border-radius: 20px; 
+    display: inline-block;
+    border-radius: 3px;
+    background:linear-gradient(50deg,hsl(199, 65%, 48%),hsl(161, 80%, 63%));
+    border-radius: 20px; 
+    padding: 10px 20px;
+    color: white;
+    margin-left: 4px;
+    margin-bottom: 2px;
 }
 .htext{
   background-color: #FC8019;
@@ -43,4 +48,9 @@ tr:nth-child(even) {
 tr:hover{
   background-color: #818181;
   cursor: pointer;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
 }
