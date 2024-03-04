@@ -4,6 +4,9 @@
     padding: 0;
 
 }
+img {
+    width:100%;
+}
 body{
     background-image: url("playground.png");
     background-repeat: no-repeat;
