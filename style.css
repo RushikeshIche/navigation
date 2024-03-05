@@ -3,6 +3,10 @@
     font-weight: 400;
     font-style: normal;
   }
+  .scrollable-content
+  {
+    scrollbar-width: none;
+  }
 body
 {
     display: flex;
@@ -10,18 +14,19 @@ body
     gap: 10px;
 }
 nav{
-    background-color: rgb(255, 81, 0);
+    /* background-color: #ff5100; */
+    background-image: linear-gradient(#ff4d20,#ff9666);
     width:100%;
 }
 
 iframe{
-    
+    margin:auto;
     height:100vh;
     overflow: scroll;
     position: relative;
     top: 10vh;
    
-    width:100%;
+    width:100vw;
     
 
 }
