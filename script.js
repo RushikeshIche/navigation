@@ -22,6 +22,25 @@ delhi.addEventListener('click', ()=>{
     let map = document.getElementsByClassName('map')[0];
     map.src = "maps/delhi/delhi.html";
 })
+let newacademic = document.getElementsByClassName('new-academic')[0];
+newacademic.addEventListener('click', ()=>{
+    console.log("Clicked")
+    let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/new-academic/newacademic.html";
+})
+let mvhr = document.getElementsByClassName('mvhr')[0];
+mvhr.addEventListener('click', ()=>{
+    console.log("Clicked")
+    let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/mvhr/mvhr.html";
+})
+let kchor = document.getElementsByClassName('kalpana-chawla')[0];
+kchor.addEventListener('click', ()=>{
+    console.log("Clicked")
+    let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/kalpana-chawla/kalpana-chawla.html";
+})
+
 let c = 45;
 
 function draw(){
