@@ -13,3 +13,8 @@ let visitBtn2=document.getElementsByClassName('visitBtn2')[0];
 visitBtn2.onclick=function () {
     location.href = "cseandece2/cseandece2.html";
 };
+let visitBtn3=document.getElementsByClassName('visitBtn3')[0];
+ 
+visitBtn3.onclick=function () {
+    location.href = "cseandece3/cseandece3.html";
+};
