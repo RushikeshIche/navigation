@@ -77,7 +77,22 @@ for (i = 45; i < 56; i++) {
         map.src = "maps/cseandece/cseandece0/cseandece0.html";
     })
 }
-
+for (i=56;i<66;i++){
+    var oldacademic0 = document.getElementsByClassName('arnav_search')[`${i}`]
+    oldacademic0.addEventListener('click', () => {
+        console.log("Clicked")
+        let map = document.getElementsByClassName('map')[0];
+        map.src = "maps/old-academic/old-academic0/old-academic0.html";
+    })
+}
+    for (i=66;i<73;i++){
+        var oldacademic1 = document.getElementsByClassName('arnav_search')[`${i}`]
+        oldacademic1.addEventListener('click', () => {
+            console.log("Clicked")
+            let map = document.getElementsByClassName('map')[0];
+            map.src = "maps/old-academic/old-academic1/old-academic1.html";
+        })
+}
 // codes of embending in map ends here
 
 function draw(){
