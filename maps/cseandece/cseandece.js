@@ -9,7 +9,7 @@ visitBtn1.onclick=function () {
     location.href = "cseandece1/cseandece1.html";
 };
 let visitBtn2=document.getElementsByClassName('visitBtn2')[0];
-
+ 
 visitBtn2.onclick=function () {
     location.href = "cseandece2/cseandece2.html";
 };
