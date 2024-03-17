@@ -23,3 +23,15 @@
     background-color: #ffffff; /* White */
     color: #333333; /* Dark Gray */
   }
+
+.caretaker{
+  position: absolute;
+  top: 150px;
+  left: 1080px;
+}
+
+.washroom{
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
