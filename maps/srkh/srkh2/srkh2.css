@@ -23,3 +23,10 @@
     background-color: #ffffff; /* White */
     color: #333333; /* Dark Gray */
   }
+
+
+.washroom{
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
