@@ -79,9 +79,9 @@ for (i = 45; i < 56; i++) {
 }
 
 // codes of embending in map ends here
-let c = 45;
 
 function draw(){
+let c = 45;
   document.documentElement.style.setProperty('--direction', c++ + 'deg');
   requestAnimationFrame(draw);
 }
