@@ -23,3 +23,15 @@
     background-color: #ffffff; /* White */
     color: #333333; /* Dark Gray */
   }
+
+.terrace{
+  position: absolute;
+  top: 150px;
+  left: 1100px;
+}
+
+.washroom{
+  position: absolute;
+  top: 150px;
+  left: 650px;
+}
