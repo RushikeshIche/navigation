@@ -32,10 +32,10 @@
 
 
 .LIFT {
-  position: absolute;
-  top: 190px;
-  left: 87px;
-  font-weight: bold;
+     position: absolute;
+    top: 205px;
+    left: 100px;
+    font-weight: bold;
 }
 
 
@@ -49,32 +49,32 @@
 }
 
 .DESIGN_DYNAMICS_LAB {
-  position: absolute;
-    top: 140px;
-    left: 213px;
+    position: absolute;
+    top: 148px;
+    left: 271px;
     font-weight: bold;
 }
 
 .THERMAL_FLUIDS_CLASS {
     position: absolute;
     top: 140px;
-    left: 541px;
+    left: 656px;
     font-weight: bold;
 
 }
 
 .THERMAL_FLUIDS_LABORATORY {
-  position: absolute;
-  top: 140px;
-  left: 665px;
-  font-weight: bold;
+    position: absolute;
+    top: 140px;
+    left: 826px;
+    font-weight: bold;
 
 }
 
 .WASHROOM {
-  position: absolute;
-  top: 141px;
-  left: 957px;
-  font-weight: bold;
-  font-size: 20px;
+    position: absolute;
+    top: 141px;
+    left: 1144px;
+    font-weight: bold;
+    font-size: 20px;
 }
