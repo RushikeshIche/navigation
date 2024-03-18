@@ -24,3 +24,57 @@
     background-color: #ffffff; /* White */
     color: #333333; /* Dark Gray */
   }
+.library{
+    position: absolute;
+    bottom:0px;
+    display:inline-block;
+}
+
+
+.LIFT {
+  position: absolute;
+  top: 190px;
+  left: 87px;
+  font-weight: bold;
+}
+
+
+.ELECTRICROOM {
+  position: absolute;
+  top: 60px;
+  left: 15px;
+  font-weight: bold;
+  height: 20px;
+
+}
+
+.DESIGN_DYNAMICS_LAB {
+  position: absolute;
+    top: 140px;
+    left: 213px;
+    font-weight: bold;
+}
+
+.THERMAL_FLUIDS_CLASS {
+    position: absolute;
+    top: 140px;
+    left: 541px;
+    font-weight: bold;
+
+}
+
+.THERMAL_FLUIDS_LABORATORY {
+  position: absolute;
+  top: 140px;
+  left: 665px;
+  font-weight: bold;
+
+}
+
+.WASHROOM {
+  position: absolute;
+  top: 141px;
+  left: 957px;
+  font-weight: bold;
+  font-size: 20px;
+}
