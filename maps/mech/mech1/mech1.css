@@ -15,8 +15,8 @@
 }
 .LIFT {
     position: absolute;
-    top: 239px;
-    left: 87px;
+    top: 238px;
+    left: 103px;
     font-weight: bold;
 }
 
@@ -29,8 +29,8 @@
 
 .COMPUTATIONALLAB {
     position: absolute;
-    top: 123px;
-    left: 646px;
+    top: 180px;
+    left: 655px;
     font-weight: bold;
     font-size: 10px;
 }
@@ -38,7 +38,7 @@
 .DREAMSLAB {
     position: absolute;
     top: 180px;
-    left: 812px;
+    left: 829px;
     font-weight: bold;
     font-size: 10px; 
 }
@@ -46,15 +46,15 @@
 .WASHROOM {
     position: absolute;
     top: 141px;
-    left: 1150px;
+    left: 1148px;
     font-weight: bold;
     font-size: 20px;
 }
 
 .STAFFROOM {
     position: absolute;
-    top: 127px;
-    left: 337px;
+    top: 126px;
+    left: 318px;
     font-weight: bold;
     font-size: 20px;
 }    
