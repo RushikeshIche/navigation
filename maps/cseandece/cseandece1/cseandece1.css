@@ -8,7 +8,7 @@
   height: 600px;
 }
 
-.cyberlab
+.highperformance
 {
   position : absolute;
   top: 400px;
@@ -26,11 +26,11 @@
   font-size: 15px;
   color : red;
 }
-.sdpd
+.Computing
 {
   position : absolute;
   top: 400px;
-  left: 20px;
+  left: 33px;
   font-size: 15px;
   color : red;
 }
@@ -43,7 +43,16 @@
   font-size: 14px;
   color : rgb(255, 0, 0);
 }
-.aicselab
+
+.washroom1
+{
+  position : absolute;
+  top: 150px;
+  left: 260px;
+  font-size: 14px;
+  color : rgb(255, 0, 0);
+}
+.drawing
 {
   position : absolute;
   top: 400px;
@@ -81,4 +90,3 @@
     background-color: #ffffff; /* White */
     color: #333333; /* Dark Gray */
   }
-
