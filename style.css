@@ -147,3 +147,39 @@ iframe{
 .show {display:block;}
 
 /* code for search ends here */
+
+.shiny-button {
+  border: none;
+  border-radius: 1px;
+  padding: 5px 20px;
+  background: linear-gradient(to left, #027c39, #04AA6D);
+  position: relative;
+  overflow: hidden;
+  border-radius: 40px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+@keyframes shine {
+  0% {left: -100px}
+  20% {left: 100%}
+  100% {left: 100%}
+}
+.shiny-button:hover::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+      120deg,
+      rgba(255,255,255, 0) 30%,
+      rgba(255,255,255, .8),
+      rgba(255,255,255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  animation: shine 3s infinite linear; /* Animation */
+}
+
