@@ -1,202 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IIITDMK</title>
-  
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Telex&display=swap" rel="stylesheet">
-  <link rel="icon" href="https://iiitk.ac.in/images/logo/logo_white.png" sizes="16x16" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Wala Chaat</title>
+    <link rel="stylesheet" href="delhi.css">
+    <link rel="icon" href="https://iiitk.ac.in/images/logo/logo_white.png" sizes="16x16" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+<body>
+ <nav class="nav1">
+  <center> <div>
+    <h1 class="htext"><b> Delhi wala Chaat menu</b></h1>
+  </div></center>
+  <div class="nav"> 
+      <form class="d-flex" role="search">
+          <input  type="search"id="myInput" onkeyup="arnav()" aria-label="Search" placeholder="  Search Here ">
+          <button id ="btn" class="btn btn-outline-success fw-bolder" type="submit">Search</button>
+      </form>
+  </div>
+  </nav>
+    <table class="table">
+        <thead class="table-dark">
+          <th>Sr. No.</th>
+          <th>Item</th>
+          <th>Price</th>
+        </thead>
 
-<body >
-    
 
-          <nav class="navbar navbar-expand-lg">
-            <div class="container">
-
-            
-              <a class="navbar-brand" href="index.html">IIITDMK Navigation</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Spaces
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item campus" href="#">Campus</a></li>
-                      <li><a class="dropdown-item cseandece" href="#">CSE & ECE Block</a></li>
-                      <li><a class="dropdown-item mech" href="#">ME Block</a></li>
-                      <li><a class="dropdown-item new-academic" href="#">New Academic Block</a></li>
-                      
-                      <li><a class="dropdown-item old-academic" href="#">Old Academic Block</a></li>
-                      <li><a class="dropdown-item playground" href="#">Playground</a></li>
-                      
-                      <li><a class="dropdown-item srkh" href="#">SRK HOR</a></li>
-                      <li><a class="dropdown-item kalam" href="#">Kalam HOR</a></li>
-                      <li><a class="dropdown-item mvhr" href="#">MV HOR</a></li>
-                      <li><a class="dropdown-item kchor" href="#">KC HOR</a></li>
-        
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item delhi" href="#">Delhi Wala Chaat</a></li>
-        
-                    </ul>
-                  </li>
-        
-                </ul>
-                
-                <form class="d-flex flex-column" role="search">
-                  <div class="dropdown">
-                    <button type="button " onclick="myFunction()" class="dropbtn shiny-button">SEARCH</button>
-                    <div id="myDropdown" class="dropdown-content">
-                      
-                      <input type="text" placeholder="Search.." id="myInput" onkeyup="arnav()">
-                      <a class="arnav_search" href="#">5G USAGE LAB</a>
-                      <a class="arnav_search" href="#">ANALOG CIRCUIT LAB</a>
-                      <a class="arnav_search" href="#">COMMUNICATION LAB</a>
-                      <a class="arnav_search" href="#">CS 201</a>
-                      <a class="arnav_search" href="#">CS 202</a>
-                      <a class="arnav_search" href="#">DIGITAL CIRCUIT </a>
-                      <a class="arnav_search" href="#">EC 201</a>
-                      <a class="arnav_search" href="#">ELECTRIC DESIGN LAB</a>
-                      <a class="arnav_search" href="#">ME 201</a>
-                      <a class="arnav_search" href="#">ACADEMIC SECTION</a>
-                      <a class="arnav_search" href="#">ACCOUNT SECTION</a>
-                      <a class="arnav_search" href="#">ADMINISTRATIVE SECTION</a>
-                      <a class="arnav_search" href="#">DISCUSSION ROOM</a>
-                      <a class="arnav_search" href="#">FINANCIAL OFFICER</a>
-                      <a class="arnav_search" href="#">PURCHASE SECTION</a>
-                      <a class="arnav_search" href="#">REGISTRAR STAFF</a>
-                      <a class="arnav_search" href="#">AIDS AND CSE LAB</a>
-                      <a class="arnav_search" href="#">CS 101</a>
-                      <a class="arnav_search" href="#">CS 102</a>
-                      <a class="arnav_search" href="#">CYBER PHYSICAL SYSTEM LAB</a>
-                      <a class="arnav_search" href="#">EC 101</a>
-                      <a class="arnav_search" href="#">ME 101</a>
-                      <a class="arnav_search" href="#">SOFTWARE DESIGN AND PRODUCT DEVLOPMENT</a>
-                      <a class="arnav_search" href="#">BASKETBALL GROUND</a>
-                      <a class="arnav_search" href="#">KABADDI COURT</a>
-                      <a class="arnav_search" href="#">CRICKET PRACTICE NETS</a>
-                      <a class="arnav_search" href="#">MULTI PURPOSE GROUND</a>
-                      <a class="arnav_search" href="#">SARDAR VALLABHAI PATEL BADMINTON STADIUM</a>
-                      <a class="arnav_search" href="#">VOLLEY BALL -1 COURT</a>
-                      <a class="arnav_search" href="#">VOLLEY BALL - 2 COURT</a>
-                      <a class="arnav_search" href="#">CCTV SERVER ROOM (ACADEMIC BUILDING)</a>
-                      <a class="arnav_search" href="#">CHAIRMAN ROOM</a>
-                      <a class="arnav_search" href="#">CONFERENCE ROOM</a>
-                      <a class="arnav_search" href="#">DEAN ROOM -1 </a>
-                      <a class="arnav_search" href="#">DEAN ROOM -2</a>
-                      <a class="arnav_search" href="#">DEAN ROOM -3</a>
-                      <a class="arnav_search" href="#">DEAN ROOM -4</a>
-                      <a class="arnav_search" href="#">DINING (ACADEMIC BUILDING)</a>
-                      <a class="arnav_search" href="#">DIRECTOR'S ROOM </a>
-                      <a class="arnav_search" href="#">COMPUTATION LABORATORY</a>
-                      <a class="arnav_search" href="#">DREAAMS LABORATORY</a>
-                      <a class="arnav_search" href="#">MECHANICAL DEPARTMENT OFFICE</a>
-                      <a class="arnav_search" href="#">MECHANICAAL HOD</a>
-                      <a class="arnav_search" href="#">STAFF ROOMS MECHANICAL</a>
-                      <a class="arnav_search" href="#">DESIGN AND DYNAMICS LABORATORY</a>
-                      <a class="arnav_search" href="#">THERMAL AND FLUIDS</a>
-                      <a class="arnav_search" href="#">DRONE LAB</a>
-                      <a class="arnav_search" href="#">ELECTRIC DRIVES AND INDTUMENTAL LAB</a>
-                      <a class="arnav_search" href="#">EMBEDDED SYSTEM AND IOT LAB</a>
-                      <a class="arnav_search" href="#">FIRE STATION PUMP</a>
-                      <a class="arnav_search" href="#">HALL</a>
-                      <a class="arnav_search" href="#">LIBRARY</a>
-                      <a class="arnav_search" href="#">MEETING ROOM</a>
-                      <a class="arnav_search" href="#">MICROPROCESSOR AND MICROCONTROLLER LAB</a>
-                      <a class="arnav_search" href="#">READING HALL</a>
-                      <a class="arnav_search" href="#">STORE ROOM</a>
-                      <a class="arnav_search" href="#">VLSI AND DSP LAB</a>
-                      <a class="arnav_search" href="#">ATM</a>
-                      <a class="arnav_search" href="#">CONFERENCE HALL</a>
-                      <a class="arnav_search" href="#">DS101</a>
-                      <a class="arnav_search" href="#">DS102</a>
-                      <a class="arnav_search" href="#">DS103</a>
-                      <a class="arnav_search" href="#">DS104</a>
-                      <a class="arnav_search" href="#">LANGUAGE LAB</a>
-                      <a class="arnav_search" href="#">OFFICE DOS</a>
-                      <a class="arnav_search" href="#">OLD SEMINAR HALL</a>
-                      <a class="arnav_search" href="#">STAFF ROOM</a>
-                      <a class="arnav_search" href="#">CSE LAB(DOS)</a>
-                      <a class="arnav_search" href="#">IOT LAB(DOS)</a>
-                      <a class="arnav_search" href="#">SIC LAB(DOS)</a>
-                      <a class="arnav_search" href="#">PHYSICS LAB2(DOS)</a>
-                      <a class="arnav_search" href="#">VLSI LABS</a>
-                      <a class="arnav_search" href="#">PHYSICS LAB</a>
-                      <a class="arnav_search" href="#">PHYSICS RESEARCH FACILITY</a>        
-                    
-                    </div>
-                  </div>
-                  
-                </form>
-              </div>
-            </div>
-          </nav>
-        
-  
-    <main>
-      <div class="anim background"></div>
-
-      <div class="anim foreground"></div>
-      <!-- <iframe class="map" src="maps/campus/campus.html" frameborder="1"></iframe> -->
-    <center><iframe class="map shadow-lg p-3 mb-5 bg-body-tertiary rounded" src="maps/campus/campus.html" frameborder="0"></iframe>
-    </center>
-    </main>
-    
-  
-  
-    
-    <!-- Footer -->
-    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
-      
-        
-      <!-- Copyright -->
-      <div class="text-center p-4 justify-content-center d-flex flex-column" style="background-color: rgba(0, 0, 0, 0.05);">
-        <div class="d-flex justify-content-center">
-
-          © 2024 Copyright:
-          <p class="text-reset fw-bold" href="index.html">IIITDMK Navigation</p>
-        </div>
-        <div class="d-flex justify-content-center">
-          <i class="fa-brands fa-instagram m-2"></i>
-          <i class="fa-brands fa-facebook m-2"></i>
-          
-          <i class="fa-brands fa-linkedin m-2"></i>
-        </div>
-      </div>
-      
-      
-      <!-- Copyright -->
-  
-  
-  </footer>
-  <!-- Footer -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
-  <script src="search.js"></script>
-  <script src="script.js"></script>
-    <script src="iframecontent.js"></script>
+        <tbody id="food" class="food">
+        </tbody>
+      </table>
+      <script src="delhi.js"></script>
 </body>
-
 </html>
