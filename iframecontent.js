@@ -1,7 +1,4 @@
-
-
 // adding classes 
-
 // search option js code for main search options to embend in map
 
 for (i = 0; i < 9; i++) {
@@ -49,7 +46,7 @@ for (i = 18; i < 25; i++) {
         anchor.href="https://www.google.com/maps/place/15%C2%B045'40.6%22N+78%C2%B002'18.0%22E/@15.761278,78.0376973,279m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d15.761278!4d78.038341?entry=ttu";
     })
 }
-for (i = 25; i < 35; i++) {
+for (i = 25; i < 33; i++) {
     var playground1 = document.getElementsByClassName('arnav_search')[`${i}`]
     playground1.addEventListener('click', () => {
         console.log("Clicked")
@@ -64,7 +61,7 @@ for (i = 25; i < 35; i++) {
         anchor.href="https://www.google.com/maps/place/Indoor+Stadium-IIITDMK/@15.7590015,78.0342926,1116m/data=!3m1!1e3!4m6!3m5!1s0x3bb5ddae23a961d3:0xfb836b7c509f72d3!8m2!3d15.7590012!4d78.0356758!16s%2Fg%2F11tshcg867?entry=ttu";
     })
 }
-for (i = 35; i < 44; i++) {
+for (i = 33; i < 44; i++) {
     var academic0 = document.getElementsByClassName('arnav_search')[`${i}`]
     academic0.addEventListener('click', () => {
         console.log("Clicked")
