@@ -26,12 +26,23 @@
 
 .caretaker{
   position: absolute;
-  top: 150px;
-  left: 1080px;
+  top: 40px;
+  left: 517px;
 }
 
-.washroom{
+.washroome{
   position: absolute;
   top: 150px;
   left: 650px;
 }
+.openwaterarea{
+    position: absolute;
+    top: 160px;
+    left: 350px;
+}
+.hairsalon{
+    position:absolute;
+    top: 160px;
+    left: 288px;
+}
+
