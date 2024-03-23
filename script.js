@@ -70,6 +70,16 @@ newacademic.addEventListener('click', ()=>{
     let anchor =document.getElementById("asearch");
     anchor.style.display="none";
 })
+let kalam = document.getElementsByClassName('kalam')[0];
+kalam.addEventListener('click', ()=>{
+    console.log("Clicked")
+    let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/kalam/kalam.html";
+    let display =document.getElementById("searchdisplay");
+    display.style.display="none";
+    let anchor =document.getElementById("asearch");
+    anchor.style.display="none";
+})
 let oldacademic = document.getElementsByClassName('old-academic')[0];
 oldacademic.addEventListener('click', ()=>{
     console.log("Clicked")
