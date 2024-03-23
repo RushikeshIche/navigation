@@ -31,7 +31,7 @@ const items = [
     "Mushroom chilli",
     "Paneer manchurian",
     "Paneer chilli",
-    "Gobi manchuria",
+    "Gobi manchurian",
     "Gobi chilli",
     "Baby corn Manchurian",
     "Baby corn chilli"

@@ -1,25 +1,33 @@
 .nav{
   justify-content: center;
-  background-color:#FC8019 ;
+  background-color:#80BCBD ;
   padding: 10px;
 }
 #myInput{
 border:2px solid black;
-border-radius: 20px;
+border-radius: 7px;
 }
-#btn{
-    display: inline-block;
-    border-radius: 3px;
-    background:linear-gradient(50deg,hsl(199, 65%, 48%),hsl(161, 80%, 63%));
-    border-radius: 20px; 
-    padding: 10px 20px;
-    color: white;
-    margin-left: 4px;
-    margin-bottom: 2px;
+#btn {
+  background-color: #789461;
+  border-radius: 7px;
+  color: white;
+  padding: 10px;
+  width:110px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+#btn:hover,#btn:focus {
+  background-color: #D4E7C5;
+  color: black;
 }
 .htext{
-  background-color: #FC8019;
+  background-color: #80BCBD;
   margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 input[type="search"] {
   padding-left: 10px;
