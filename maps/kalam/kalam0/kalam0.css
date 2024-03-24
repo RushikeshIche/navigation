@@ -24,41 +24,101 @@
     color: #333333; /* Dark Gray */
   }
 
+
 .caretaker{
   position: absolute;
   top: 40px;
   left: 517px;
+  color: rgb(17, 91, 141);
 }
 
 .washroome{
   position: absolute;
   top: 150px;
   left: 650px;
+  color: rgb(17, 91, 141);
 }
 .openwaterarea{
     position: absolute;
     top: 160px;
     left: 350px;
+    color: rgb(17, 91, 141);
 }
 .hairsalon{
     position:absolute;
     top: 160px;
     left: 288px;
+    color: rgb(17, 91, 141);
+}
+.washroom{
+    position: absolute;
+    top: 60px;
+    left: 262px;
+    color: rgb(17, 91, 141);
+    text-align: center;
 }
 .openarea{
     position: absolute;
     top: 60px;
     left: 580px;
+    color: rgb(17, 91, 141);
 }
 .washroom2{
     position: absolute;
     top: 400px;
     left: 600px;
-    /* rotate: var(#ffffff); */
+    color: rgb(17, 91, 141);
 }
 .lift{
     position:absolute;
     top: 278px;
     left: 430px;
+    color: rgb(17, 91, 141);
 }
-
+.stairs{
+    position:absolute;
+    top: 285px;
+    left: 535px;
+    color: rgb(17, 91, 141);
+}
+.TVroom{
+    position:absolute;
+    top: 108px;
+    left: 790px;
+    color: rgb(17, 91, 141);
+}
+.office{
+    position:absolute;
+    top: 168px;
+    left: 550px;
+    text-align: center;
+    color: rgb(17, 91, 141);
+}
+.electricityroom{
+    position:absolute;
+    top: 470px;
+    left: 210px;
+    text-align: center;
+    color: rgb(17, 91, 141);
+}
+.stairsi{
+    position:absolute;
+    top: 390px;
+    left: 255px;
+    text-align: center;
+    color: rgb(17, 91, 141);
+}
+.electricityroomi{
+    position:absolute;
+    top: 350px;
+    left: 300px;
+    text-align: center;
+    color: rgb(17, 91, 141);
+}
+.open2{
+    position:absolute;
+    top: 470px;
+    left: 385px;
+    text-align: center;
+    color: rgb(17, 91, 141);
+}
