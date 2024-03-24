@@ -6,7 +6,7 @@ campus.addEventListener('click', () => {
     map.src = "maps/campus/campus.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
-    display.innerHTML = "<h1> MECHANICAL BUILDING</h1>";
+    display.innerHTML = "<h1> MASTERPLAN IIITDM KURNOOL</h1>";
     let anchor = document.getElementById("asearch");
     anchor.style.display = "none";
 })
