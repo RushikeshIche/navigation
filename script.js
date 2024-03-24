@@ -122,6 +122,7 @@ let oldacademic = document.getElementsByClassName('old-academic')[0];
 oldacademic.addEventListener('click', () => {
     console.log("Clicked")
     let map = document.getElementsByClassName('map')[0];
+     map.src = "maps/old-academic/old-academic.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
     display.innerHTML = "<h1> OLD ACADEMIC BUILDING</h1>";
