@@ -106,7 +106,7 @@ iframe{
 
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #D4E7C5;
+  background-color: #b4bbac;
   color: black;
 }
 
@@ -141,7 +141,12 @@ iframe{
   border: 1px solid #ddd;
   z-index: 1;
 }
-
+.ourteam
+{
+  background:transparent;
+  border: none;
+  color: white;
+}
 
 .dropdown-content a {
   color: black;
@@ -159,7 +164,11 @@ h1
 .show {display:block;}
 
 /* code for search ends here */
-
+.iiitdmk-logo
+{
+  height:50px;
+  margin:0 20px;
+}
 .shiny-button {
   border: none;
   border-radius: 1px;

@@ -62,6 +62,16 @@ srkh.addEventListener('click', () => {
     let anchor = document.getElementById("asearch");
     anchor.style.display = "none";
 })
+let ourteam = document.getElementsByClassName('ourteam')[0];
+ourteam.addEventListener('click', () => {
+    console.log("Clicked")
+    let map = document.getElementsByClassName('map')[0];
+    map.src = "ourteam/ourteam.html";
+    let display = document.getElementById("searchdisplay");
+    display.style.display = "none";
+    let anchor = document.getElementById("asearch");
+    anchor.style.display = "none";
+})
 
 
 let delhi = document.getElementsByClassName('delhi')[0];
