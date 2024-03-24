@@ -71,7 +71,7 @@ delhi.addEventListener('click', () => {
     map.src = "maps/delhi/delhi.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
-    display.innerHTML = "<h1> DELHI CHAAT WALA</h1>";
+    display.innerHTML = "<h1></h1>";
     let anchor = document.getElementById("asearch");
     anchor.style.display = "None";
 
