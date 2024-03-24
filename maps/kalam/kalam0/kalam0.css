@@ -45,4 +45,20 @@
     top: 160px;
     left: 288px;
 }
+.openarea{
+    position: absolute;
+    top: 60px;
+    left: 580px;
+}
+.washroom2{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    /* rotate: var(#ffffff); */
+}
+.lift{
+    position:absolute;
+    top: 278px;
+    left: 430px;
+}
 
