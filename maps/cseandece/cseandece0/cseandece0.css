@@ -2,8 +2,14 @@
 {
     margin: 0;
     padding: 0;
-
+    color: rgb(17, 91, 141);
+    font-weight: 600;
 }
+
+.modal-body{
+    color:black;
+    font-weight: 400;
+  }
 
 .bgimg
 {
@@ -98,6 +104,11 @@
     left: 570px;
     font-size: 25px;
 }
+.vacant{
+    position: absolute;
+    top: 132px;
+    left: 170px;
+}
 
 /* colours Modal */
 .modal-header {
@@ -107,9 +118,11 @@
   
   .modal-footer {
     background-color: #f8f9fa; /* Lighter Gray */
+    color: black;
   }
   
   .modal-content {
     background-color: #ffffff; /* White */
     color: #333333; /* Dark Gray */
   }
+
