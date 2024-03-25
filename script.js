@@ -152,6 +152,7 @@ let kchor = document.getElementsByClassName('kchor')[0];
 kchor.addEventListener('click', () => {
     console.log("Clicked")
     let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/kchor/kchor.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
     display.innerHTML = "<h1> KALPANA CHAWLA GIRLS HOSTEL</h1>";
