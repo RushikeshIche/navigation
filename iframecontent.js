@@ -170,7 +170,7 @@ for(i=79;i<83;i++){
     cseandece1.addEventListener('click', () => {
         console.log("Clicked")
         let map = document.getElementsByClassName('map')[0];
-        map.src = "maps/cseandece/cseandece3/cseandece3.html";
+        map.src = "maps/cseandece/cseandece1/cseandece1.html";
         let display =document.getElementById("searchdisplay");
         display.style.display="";
         display.innerHTML="<h1>CSE AND ECE FLOOR 3</h1>";
