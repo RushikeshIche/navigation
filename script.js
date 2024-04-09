@@ -6,7 +6,7 @@ campus.addEventListener('click', () => {
     map.src = "maps/campus/campus.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
-    display.innerHTML = "<h1> MECHANICAL BUILDING</h1>";
+    display.innerHTML = "<h1> MASTERPLAN IIITDM KURNOOL</h1>";
     let anchor = document.getElementById("asearch");
     anchor.style.display = "none";
 })
@@ -122,6 +122,7 @@ let oldacademic = document.getElementsByClassName('old-academic')[0];
 oldacademic.addEventListener('click', () => {
     console.log("Clicked")
     let map = document.getElementsByClassName('map')[0];
+     map.src = "maps/old-academic/old-academic.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
     display.innerHTML = "<h1> OLD ACADEMIC BUILDING</h1>";
@@ -151,6 +152,7 @@ let kchor = document.getElementsByClassName('kchor')[0];
 kchor.addEventListener('click', () => {
     console.log("Clicked")
     let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/kchor/kchor.html";
     let display = document.getElementById("searchdisplay");
     display.style.display = "";
     display.innerHTML = "<h1> KALPANA CHAWLA GIRLS HOSTEL</h1>";

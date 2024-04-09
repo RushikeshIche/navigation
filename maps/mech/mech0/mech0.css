@@ -2,12 +2,14 @@
 {
     margin: 0;
     padding: 0;
+    color: rgb(17, 91, 141);
+    font-weight: 600;
+}
 
-}
-.bgimg
-{
-    height:600px;
-}
+.modal-body{
+    color:black;
+    font-weight: 400;
+  }
 
 
 /* colours Modal */
