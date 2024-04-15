@@ -40,7 +40,7 @@ min-width: 130px;
   
   transform: scaleX(-1);
 }
-@media only screen and (max-width: 460px) and (min-width: 360px) {
+@media only screen and ((min-width: 339px) and (max-width: 460px)  ) {
   .second-chilli {
       display: none;
   }

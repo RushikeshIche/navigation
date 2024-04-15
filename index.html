@@ -87,7 +87,7 @@ body {
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle spaces-dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Spaces
                     </a>
                     <ul class="dropdown-menu">
@@ -114,11 +114,12 @@ body {
                     </ul>
                   </li>
         
-                  <div class=" nav-item nav-link" ><button class ="ourteam" >Our Team</button></div>
+                  <div class=" nav-item nav-link ourteam-button" ><button class ="ourteam" >Our Team</button></div>
+                  <!-- <div class=" nav-item nav-link distances-button" ><button class ="distances" >Distances</button></div> -->
                 </ul>
-                <form class="d-flex flex-column" role="search">
+                <form class="d-flex flex-column search-btn" role="search">
                   <div class="dropdown">
-                    <button type="button" onclick="myFunction()" class="dropbtn">SEARCH</button>
+                    <button type="button" onclick="myFunction()" class="dropbtn ">SEARCH</button>
                     <div id="myDropdown" class="dropdown-content">
                       
                       <input type="text" placeholder="Search.." id="myInput" onkeyup="arnav()">
@@ -216,10 +217,21 @@ body {
             </div>
           </nav>
         
-          <section>
+          
+            <div id = "how-to-use">
+              <div  class=" alert alert-primary d-flex align-items-center alert-dismissible fade show" role="alert">
+              
+                <div>
+                  Click on more option (Top Right Corner) to see other maps and features
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            </div>
+            
+            
         <center>    <div id="searchdisplay"><h1>IIITDMK CAMPUS</h1></div></center>
         <center><a id="asearch" href="#" target="_blank"></a>  </center>
-          </section>
+          
   
     <main>
       

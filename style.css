@@ -1,54 +1,68 @@
 * {
-    font-family: "Telex", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Alegreya';
-    src: url(fonts/Alegreya/Alegreya-VariableFont_wght.ttf) format("truetype");
+  font-family: "Telex", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-  .scrollable-content
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url(fonts/Alegreya/Alegreya-VariableFont_wght.ttf) format("truetype");
+}
+
+.scrollable-content {
+  scrollbar-width: none;
+}
+
+@media only screen and (min-width: 992px) {
+  #how-to-use
   {
-    scrollbar-width: none;
+    display: none;
   }
-
-
-
-body
-{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-nav{
-    /* background-color: #ff5100; */
-/*     background-image: linear-gradient(#ff4d20,#ff9666); */
-    width:100%;
 }
 
-iframe{
-    margin:auto;
-    height:100vh;
-    overflow: scroll;
-    position: relative;
-    top: 4vh;
-   
-    width:100vw;
-    
+.spaces-dropdown,
+.ourteam-button,
+.search-btn,
+.distances-button {
+  text-align: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav {
+  /* background-color: #ff5100; */
+  /*     background-image: linear-gradient(#ff4d20,#ff9666); */
+  width: 100%;
+}
+
+iframe {
+  margin: auto;
+  height: 100vh;
+  overflow: scroll;
+  position: relative;
+  top: 4vh;
+
+  width: 100vw;
+
 
 }
+
 :root {
-    --direction: -45deg; 
-  }
-  
- 
-  
-  main {
-    position: relative;
-  }
-  
- /* .anim{
+  --direction: -45deg;
+}
+
+
+
+main {
+  position: relative;
+}
+
+/* .anim{
     position: absolute;
     top: 0;
     left: 0;
@@ -78,12 +92,12 @@ iframe{
     mask-position: 50% 50%;
     margin-right: 30px;
   } */
-  
-.searchInput
-{
+
+.searchInput {
   display: flex;
   flex-direction: row;
 }
+
 /* form
 {
   displ
@@ -98,14 +112,15 @@ iframe{
   border-radius: 7px;
   color: white;
   padding: 10px;
-  width:130px;
+  width: 130px;
   font-size: 16px;
   border: none;
   cursor: pointer;
 }
 
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: #b4bbac;
   color: black;
 }
@@ -123,7 +138,9 @@ iframe{
 }
 
 
-#myInput:focus {outline: 3px solid #ddd;}
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
 
 .dropdown {
   position: relative;
@@ -141,9 +158,10 @@ iframe{
   border: 1px solid #ddd;
   z-index: 1;
 }
-.ourteam
-{
-  background:transparent;
+
+.ourteam,
+.distances {
+  background: transparent;
   border: none;
   color: white;
 }
@@ -155,20 +173,24 @@ iframe{
   display: block;
 }
 
-h1
-{
-  font-family:"Alegreya", sans-serif;
+h1 {
+  font-family: "Alegreya", sans-serif;
 }
-.dropdown-content a:hover {background-color: #777070}
 
-.show {display:block;}
+.dropdown-content a:hover {
+  background-color: #777070
+}
+
+.show {
+  display: block;
+}
 
 /* code for search ends here */
-.iiitdmk-logo
-{
-  height:50px;
-  margin:0 20px;
+.iiitdmk-logo {
+  height: 50px;
+  margin: 0 20px;
 }
+
 .shiny-button {
   border: none;
   border-radius: 1px;
@@ -183,24 +205,32 @@ h1
   border: none;
   cursor: pointer;
 }
+
 @keyframes shine {
-  0% {left: -100px}
-  20% {left: 100%}
-  100% {left: 100%}
+  0% {
+    left: -100px
+  }
+
+  20% {
+    left: 100%
+  }
+
+  100% {
+    left: 100%
+  }
 }
+
 .shiny-button:hover::before {
   content: '';
   position: absolute;
   width: 100px;
   height: 100%;
-  background-image: linear-gradient(
-      120deg,
-      rgba(255,255,255, 0) 30%,
-      rgba(255,255,255, .8),
-      rgba(255,255,255, 0) 70%
-  );
+  background-image: linear-gradient(120deg,
+      rgba(255, 255, 255, 0) 30%,
+      rgba(255, 255, 255, .8),
+      rgba(255, 255, 255, 0) 70%);
   top: 0;
   left: -100px;
-  animation: shine 3s infinite linear; /* Animation */
+  animation: shine 3s infinite linear;
+  /* Animation */
 }
-

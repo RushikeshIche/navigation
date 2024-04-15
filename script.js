@@ -184,3 +184,40 @@ function draw() {
 }
 
 requestAnimationFrame(draw);
+
+// var howtouse = document.getElementById("how-to-use");
+// // var widthScreen = window.innerWidth;
+// // function myFunction(x) {
+// //     if (x.matches) {
+// //       // If media query matches (viewport width <= 700px)
+// //       howtouse.classList.remove("show")
+// //     } else {
+// //       // Otherwise (viewport width > 700px)
+// //       document.body.style.backgroundColor = "pink";
+// //     }
+// //   }
+  
+// // //   // Create a MediaQueryList object for max-width: 700px
+// // //   var x = window.matchMedia("(max-width: 991px)");
+  
+// // //   // Call the listener function at runtime
+// // //   myFunction(x);
+  
+// // //   // Attach a listener function for state changes
+// //   windowaddEventListener("change", function() {
+// //     myFunction(x);
+// //   });
+
+// // if(widthScreen>"991px")
+// // {
+// //     howtouse.classList.remove("show");
+// // }
+
+// window.innerWidth.addEventListener = "change", ()=>
+// {
+//     if(window.innerWidth>991)
+//     {
+//         console.log(window.innerWidth)
+//         howtouse.classList.remove("show");
+//     }
+// } 

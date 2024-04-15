@@ -58,7 +58,8 @@ a{
     text-align: center;
     padding: 20px 10px;
     cursor: pointer;
-    max-width: 300px;
+    width: 200px;
+    
     transition: all 0.3s;
 }
 

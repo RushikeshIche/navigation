@@ -203,7 +203,7 @@ document.getElementById("myDropdown").classList.toggle("show");
 
 for(i=85;i<86;i++){
 let kalpana = document.getElementsByClassName('arnav_search')[i];
-kalpna.addEventListener('click', ()=>{
+kalpana.addEventListener('click', ()=>{
     console.log("Clicked")
     let map = document.getElementsByClassName('map')[0];
     map.src = "maps/kchor/kchor.html";
