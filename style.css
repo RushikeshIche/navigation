@@ -27,7 +27,21 @@
   text-align: center;
   align-items: center;
 }
-
+.ourteam-button :hover
+{
+  border : 1px solid chartreuse;
+  background-color: #789461;
+  border-radius: 5px;
+  transition:0.5s;
+  
+}
+.spaces-dropdown :hover{
+  
+  border : 1px solid chartreuse;
+  background-color: #789461;
+  border-radius: 5px;
+  transition:0.5s;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -121,6 +135,8 @@ main {
 
 .dropbtn:hover,
 .dropbtn:focus {
+  border:1px solid chartreuse;
+  transition: 0.5s;
   background-color: #b4bbac;
   color: black;
 }
@@ -160,7 +176,7 @@ main {
 }
 
 .ourteam,
-.distances {
+.distances ,.spaces-button{
   background: transparent;
   border: none;
   color: white;
