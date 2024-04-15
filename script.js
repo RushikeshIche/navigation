@@ -162,6 +162,20 @@ kchor.addEventListener('click', () => {
     anchor.href = "https://www.google.com/maps/place/15%C2%B045'27.0%22N+78%C2%B002'18.9%22E/@15.7575,78.0385833,817m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d15.7575!4d78.0385833?entry=ttu";
 })
 
+// cafeteria menu
+let cafe = document.getElementsByClassName('cafe')[0];
+cafe.addEventListener('click', () => {
+    console.log("Clicked")
+    let map = document.getElementsByClassName('map')[0];
+    map.src = "maps/cafe/cafe.html";
+    let display = document.getElementById("searchdisplay");
+    display.style.display = "";
+    display.innerHTML = "<h1></h1>";
+    let anchor = document.getElementById("asearch");
+    anchor.style.display = "None";
+
+})
+
 let c = 45;
 
 function draw() {
