@@ -1,29 +1,26 @@
 const items = [
-    "Cardamon Tea (100 ml)",
-    "Cardamon Tea (150 ml)",
-    "Green Tea",
-    "Cappuccino",
-    "Machaccino",
-    "Low sugar Cappuccino",
-    "Filter Cofee",
-    "Cold Cofee",
-    "Soup",
-    "Plain Veggie Noodles",
-    "Eggie Noodles",
-    "Grilled Sandwich",
-    "Cheese Sandwich",
-    "Egg Sandwich",
-    "Chicken Sandwich",
-    "Papu Charu Annam",
-    "Curd Rice",
-    "Veg Fried Rice",
-    "Egg Fried Rice",
-    "Puri",
-    "Poha",
-    "Samosa (2 pcs)",
-    
+    "Tea (small)",
+    "Tea (large)",
+    "Green Tea","Lemon Tea","Instant Coffe","Filter Cofee","Black Cofee","Sonite Cofee","Boost","Bournavita","Horlicks",
+    "Cold Cofee","Chocolate Cold Cofee","Snickers Cold Cofee","Kit Kat Cold Cofee","Oreo Cold Cofee","Belgium Ice Cream Cofee",
+    "Vanila Shake","Oreo Shake","Chocolate Shake","Kit Kat Shake","Belgium Shake","Butterscotch Shake","Mango Shake","Strawberry Shake","Black Current Shake",
+    "Plain Lassi","Rooh Afza Lassi","Mango Lassi","Chocolate Lassi","Butter Milk","Lemon Soda","Sharbat",
+    "Veg Maggie","Cheese Maggie","Corn Maggie","Corn Cheese Maggie","Paneer Maggie","Paneer Cheese Maggie","Egg Maggie","Egg Cheese Maggie","Chicken Maggie","Chicken Cheese Maggie","Chicken & Egg Maggie",
+    "Veg Sandwich","Veg Cheese Sandwich","Corn Sandwich","Corn Cheese Sandwich","Paneer Sandwich","Paneer Cheese Sandwich","Egg Sandwich","Egg Cheese Sandwich","Chicken Sandwich","Chicken Cheese Sandwich",
+    "Gobi Manchurian","Gobi 65","Gobi Chilli",
+    "Veg Noodle","Egg Noodle","Chicken Noodle","Paneer Noodle","Veg Pasta","Egg Pasta","Chicken Pasta",
+    "Goobie Fried Rice","Paneer Fried Rice","Mushroom Fried Rice","Shezwan Fried Rice","Kaju Fried Rice","Egg Fried Rice","Egg Shezwan Fried Rice","Egg Paneer Fried Rice","Chicken Egg Fried Rice"
 ];
-const price=[12,15,15,50,60,60,"20/25","40/60",30,25,35,30,40,45,55,50,45,"","",40,30,30
+const price=[7,15,
+             15,15,20,20,20,15,20,20,20,
+             35,60,70,70,70,100,
+             70,90,90,90,120,90,90,90,90,
+             25,30,60,50,20,20,25,
+             30,45,35,45,60,75,40,50,60,70,70,
+             40,50,45,55,55,70,45,50,60,65,
+             75,75,75,
+             50,60,80,75,50,60,80,
+             75,70,70,60,80,60,70,75,80
 ]
 for(let i=0;i<items.length;i++){
 var html= `<tr class="tr">
