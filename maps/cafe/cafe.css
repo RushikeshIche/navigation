@@ -30,18 +30,18 @@
     cursor: pointer;
   }
   
-  .first-chilli
+  .cafe-img1
   {
     height:50px
   }
-  .second-chilli
+  .cafe-img2
   {
     height:50px;
     
     transform: scaleX(-1);
   }
   @media only screen and (max-width: 460px) and (min-width: 360px) {
-    .second-chilli {
+    .cafe-img2 {
         display: none;
     }
   }
