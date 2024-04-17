@@ -1,8 +1,8 @@
 const items = [
     "Tea (small)",
     "Tea (large)",
-    "Green Tea","Lemon Tea","Instant Coffe","Filter Cofee","Black Cofee","Sonite Cofee","Boost","Bournavita","Horlicks",
-    "Cold Cofee","Chocolate Cold Cofee","Snickers Cold Cofee","Kit Kat Cold Cofee","Oreo Cold Cofee","Belgium Ice Cream Cofee",
+    "Green Tea","Lemon Tea","Instant Coffee","Filter Coffee","Black Coffee","Sonite Coffee","Boost","Bournavita","Horlicks",
+    "Cold Coffee","Chocolate Cold Coffee","Snickers Cold Coffee","Kit Kat Cold Coffee","Oreo Cold Coffee","Belgium Ice Cream Coffee",
     "Vanila Shake","Oreo Shake","Chocolate Shake","Kit Kat Shake","Belgium Shake","Butterscotch Shake","Mango Shake","Strawberry Shake","Black Current Shake",
     "Plain Lassi","Rooh Afza Lassi","Mango Lassi","Chocolate Lassi","Butter Milk","Lemon Soda","Sharbat",
     "Veg Maggie","Cheese Maggie","Corn Maggie","Corn Cheese Maggie","Paneer Maggie","Paneer Cheese Maggie","Egg Maggie","Egg Cheese Maggie","Chicken Maggie","Chicken Cheese Maggie","Chicken & Egg Maggie",
